@@ -10,4 +10,5 @@ The model's success will be assessed based on this R-Squared Score,which must ex
 
 Use the trained model to predict charges for the data in validation_dataset.csv
 Store the predictions as a new column in the validation dataset called predicted_charges, saving as a 
-pandas DataFrame called validation_date. If needed, handle
+pandas DataFrame called validation_data. If needed, handle andy negative values by replacing them with
+the min basic charge of 1000.
